@@ -1,5 +1,4 @@
 const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
     transpileDependencies: ['d3-scale', 'd3-array', 'cash-dom'],
