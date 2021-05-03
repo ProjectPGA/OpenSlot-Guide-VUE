@@ -23,6 +23,7 @@
                         background: '#fff',
                         boxShadow: '0 2px 3px 2px rgba(0,0,0,.1)',
                     }"
+                    data-cy="top-navbar"
                 >
                     <Button @click="changeLanguage()" type="primary">
                         {{ $t('common.bottonTranslations') }}
