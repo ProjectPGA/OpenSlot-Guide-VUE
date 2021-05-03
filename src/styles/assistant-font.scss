@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Assistant';
+    src: url('../assets/fonts/Assistant-Regular.otf') format('opentype'),
+        url('../assets/fonts/Assistant-Regular.woff') format('woff'),
+        url('/assets/fonts/Assistant-Regular.ttf') format('truetype'),
+        url('../assets/fonts/Assistant-Regular.svg#Lexend') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../assets/fonts/Assistant-Medium.otf') format('opentype'),
+        url('../assets/fonts/Assistant-Medium.woff') format('woff'),
+        url('/assets/fonts/Assistant-Medium.ttf') format('truetype'),
+        url('../assets/fonts/Assistant-Medium.svg#Lexend') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../assets/fonts/Assistant-Light.otf') format('opentype'),
+        url('../assets/fonts/Assistant-Light.woff') format('woff'),
+        url('/assets/fonts/Assistant-Light.ttf') format('truetype'),
+        url('../assets/fonts/Assistant-Light.svg#Lexend') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../assets/fonts/Assistant-Bold.otf') format('opentype'),
+        url('../assets/fonts/Assistant-Bold.woff') format('woff'),
+        url('/assets/fonts/Assistant-Bold.ttf') format('truetype'),
+        url('../assets/fonts/Assistant-Bold.svg#Lexend') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
