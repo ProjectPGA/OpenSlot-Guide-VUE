@@ -26,7 +26,7 @@
                     data-cy="top-navbar"
                 >
                     <Button @click="changeLanguage()" type="primary">
-                        {{ $t('common.bottonTranslations') }}
+                        {{ $t('common.buttonTranslations') }}
                     </Button>
                 </Header>
                 <Content :style="{ padding: '0 16px 16px' }">
@@ -62,12 +62,6 @@ import mainStore from '@/store/main-store/MainStore';
 })
 export default class Home extends Vue {
     private mainStore = mainStore.context(this.$store);
-
-    private isCollapsed: boolean = false;
-
-    private get menuitemClasses(): any[] {
-        return ['menu-item', this.isCollapsed ? 'collapsed-menu' : ''];
-    }
 
     private get currentLanguage(): string {
         return this.mainStore.state.currentLanguage;

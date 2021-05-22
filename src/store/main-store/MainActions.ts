@@ -9,10 +9,6 @@ export default class MainActions extends Actions<
     MainMutations,
     MainActions
 > {
-    public reverttestData(): void {
-        this.commit('changeTestData');
-    }
-
     public changeLanguageToSpanish(): void {
         this.commit('changeLanguageToSpanish');
     }

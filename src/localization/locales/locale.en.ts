@@ -11,7 +11,7 @@ const en = {
         },
     },
     common: {
-        bottonTranslations: 'Translate',
+        buttonTranslations: 'Translate',
     },
 };
 

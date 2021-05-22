@@ -11,7 +11,7 @@ const es = {
         },
     },
     common: {
-        bottonTranslations: 'Traducir',
+        buttonTranslations: 'Traducir',
     },
 };
 
