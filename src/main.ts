@@ -8,8 +8,8 @@ import i18n from '@/localization/localization';
 
 import './registerServiceWorker';
 
-import './styles/main.scss';
 import 'iview/dist/styles/iview.css';
+import './styles/main.less';
 
 Vue.config.productionTip = false;
 
