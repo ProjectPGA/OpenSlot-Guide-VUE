@@ -1,16 +1,5 @@
 <template>
-    <div class="layout">
-        <Breadcrumb :style="{ margin: '16px 0' }">
-            <BreadcrumbItem>
-                {{ $t('views.home.home') }}
-            </BreadcrumbItem>
-            <BreadcrumbItem>
-                {{ $t('views.home.components') }}
-            </BreadcrumbItem>
-            <BreadcrumbItem>
-                {{ $t('views.home.layout') }}
-            </BreadcrumbItem>
-        </Breadcrumb>
+    <div class="home">
         <Card>
             <div style="height: 600px">
                 {{ $t('views.home.content') }}

@@ -1,5 +1,5 @@
 <template>
-    <Menu active-name="1-2" width="auto">
+    <Menu class="menu-sider" active-name="1-2" width="auto">
         <MenuItem name="1-1">
             <Icon type="ios-navigate"></Icon>
             <span>{{ $t('views.home.option1') }}</span>
@@ -24,4 +24,8 @@ import { Component, Vue } from 'vue-property-decorator';
 export default class MenuSider extends Vue {}
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+.menu-sider {
+    height: 100vh;
+}
+</style>
