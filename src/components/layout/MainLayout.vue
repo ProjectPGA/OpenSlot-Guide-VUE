@@ -1,13 +1,13 @@
 <template>
     <Layout class="main-layout">
-        <Sider class="main-layout_sider">
+        <Sider class="main-layout__sider">
             <slot name="sider" />
         </Sider>
         <Layout>
-            <Header class="main-layout_header" data-cy="top-navbar">
+            <Header class="main-layout__header" data-cy="top-navbar">
                 <slot name="header" />
             </Header>
-            <Content class="main-layout_content">
+            <Content class="main-layout__content">
                 <slot />
             </Content>
         </Layout>
@@ -27,13 +27,13 @@ export default class MainLayout extends Vue {}
 .main-layout {
     min-height: 100vh;
 
-    &_sider {
+    &__sider {
         min-height: 100vh;
         position: fixed;
         z-index: 2000;
     }
 
-    &_header {
+    &__header {
         width: calc(100vw - 200px);
         border-bottom: solid 1px #dcdee2;
         position: fixed;
@@ -41,7 +41,7 @@ export default class MainLayout extends Vue {}
         left: 200px;
     }
 
-    &_content {
+    &__content {
         padding: 65px 16px 16px 216px;
     }
 }

@@ -1,15 +1,15 @@
 <template>
     <div class="main-navbar">
-        <div class="main-navbar_left">
+        <div class="main-navbar__left">
             <img
                 src="../../assets/img/OpenSlot_VUE_Logo.svg"
                 alt="Logo"
                 width="500"
                 height="600"
-                class="main-navbar_left_logo"
+                class="main-navbar__left__logo"
             />
         </div>
-        <div class="main-navbar_right">
+        <div class="main-navbar__right">
             <Button @click="changeLanguage()" type="primary">
                 {{ $t('common.buttonTranslations') }}
             </Button>
@@ -56,9 +56,9 @@ export default class MainNavbar extends Vue {
     align-items: center;
     justify-content: space-between;
 
-    &_left {
+    &__left {
         display: flex;
-        &_logo {
+        &__logo {
             width: 150px;
             height: 50px;
         }
