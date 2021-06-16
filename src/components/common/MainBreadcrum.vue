@@ -1,13 +1,12 @@
 <template>
-    <Breadcrumb :style="{ margin: '16px 0' }">
-        <BreadcrumbItem>
-            {{ $t('views.home.home') }}
-        </BreadcrumbItem>
-        <BreadcrumbItem>
-            {{ $t('views.home.components') }}
-        </BreadcrumbItem>
-        <BreadcrumbItem>
-            {{ $t('views.home.layout') }}
+    <Breadcrumb class="main-breadcrumb">
+        <BreadcrumbItem
+            class="main-breadcrumb__item"
+            v-for="(path, index) in $route.path.split('/')"
+            :key="index"
+            :to="`/${path}`"
+        >
+            {{ path }}
         </BreadcrumbItem>
     </Breadcrumb>
 </template>
@@ -21,4 +20,12 @@ import { Component, Vue } from 'vue-property-decorator';
 export default class MainBreadcrum extends Vue {}
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+.main-breadcrumb {
+    margin: 16px 0;
+
+    &__item {
+        text-transform: capitalize;
+    }
+}
+</style>

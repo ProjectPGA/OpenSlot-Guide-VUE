@@ -1,16 +1,10 @@
 <template>
-    <Menu class="menu-sider" active-name="1-2" width="auto">
-        <MenuItem name="1-1">
-            <Icon type="ios-navigate"></Icon>
-            <span>{{ $t('views.home.option1') }}</span>
+    <Menu class="menu-sider" active-name="Home" width="auto">
+        <MenuItem name="Home" :to="{ name: 'Home' }">
+            {{ $t('common.titles.home') }}
         </MenuItem>
-        <MenuItem name="1-2">
-            <Icon type="search"></Icon>
-            <span>{{ $t('views.home.option2') }}</span>
-        </MenuItem>
-        <MenuItem name="1-3">
-            <Icon type="settings"></Icon>
-            <span>{{ $t('views.home.option3') }}</span>
+        <MenuItem name="About" :to="{ name: 'About' }">
+            {{ $t('common.titles.about') }}
         </MenuItem>
     </Menu>
 </template>

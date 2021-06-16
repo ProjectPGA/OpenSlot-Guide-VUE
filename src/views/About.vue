@@ -1,8 +1,8 @@
 <template>
-    <div class="home">
+    <div class="about">
         <Card>
             <div style="height: 1200px">
-                {{ $t('views.home.content') }}
+                {{ $t('views.about.content') }}
             </div>
         </Card>
     </div>
@@ -12,9 +12,9 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({
-    name: 'Home',
+    name: 'About',
 })
-export default class Home extends Vue {}
+export default class About extends Vue {}
 </script>
 
 <style lang="less" scoped></style>
