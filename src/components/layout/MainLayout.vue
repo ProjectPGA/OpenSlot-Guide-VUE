@@ -64,23 +64,23 @@ export default class MainLayout extends Vue {
     }
 
     &__header {
-        width: calc(100vw - 200px);
-        border-bottom: solid 1px #dcdee2;
+        width: calc(100vw - 12.5rem);
+        border-bottom: solid 0.063rem @borders;
         position: fixed;
-        padding: 0 32px;
+        padding: 0 2rem;
         z-index: 2000;
-        left: 200px;
+        left: 12.5rem;
 
         .responsive(@tablet-width, {
-            left: 0px;
+            left: 0rem;
             width: calc(100vw);
-            padding: 0 16px 0 50px;
+            padding: 0 1rem 0 3.125rem;
         });
 
         &__menu-icon {
             position: absolute;
-            top: 18px;
-            left: 15px;
+            top: 1.125rem;
+            left: 0.938rem;
             display: none;
 
             .responsive(@tablet-width, {
@@ -90,10 +90,10 @@ export default class MainLayout extends Vue {
     }
 
     &__content {
-        padding: 65px 16px 16px 216px;
+        padding: 4.1em 1rem 1rem 13.5rem;
 
         .responsive(@tablet-width, {
-            padding: 65px 16px 16px 16px ;
+            padding: 4.1em 1rem 1rem 1rem ;
         });
     }
 }

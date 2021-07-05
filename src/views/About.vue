@@ -1,7 +1,7 @@
 <template>
     <div class="about">
         <Card>
-            <div style="height: 1200px">
+            <div style="height: 75rem">
                 {{ $t('views.about.content') }}
             </div>
         </Card>

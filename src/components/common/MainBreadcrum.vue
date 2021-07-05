@@ -22,7 +22,7 @@ export default class MainBreadcrum extends Vue {}
 
 <style lang="less" scoped>
 .main-breadcrumb {
-    margin: 16px 0;
+    margin: 1rem 0;
 
     &__item {
         text-transform: capitalize;

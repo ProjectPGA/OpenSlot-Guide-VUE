@@ -15,7 +15,6 @@ import './registerServiceWorker';
 
 import 'iview/dist/styles/iview.css';
 import './styles/main.less';
-import './styles/utilities.less';
 
 Vue.config.productionTip = false;
 

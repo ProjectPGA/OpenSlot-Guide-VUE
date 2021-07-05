@@ -59,8 +59,8 @@ export default class MainNavbar extends Vue {
     &__left {
         display: flex;
         &__logo {
-            width: 150px;
-            height: 50px;
+            width: 9.375rem;
+            height: 3.125rem;
         }
     }
 }
