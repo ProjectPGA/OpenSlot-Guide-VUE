@@ -1,17 +1,22 @@
 const es = {
     views: {
         home: {
-            option1: 'Opcion 1',
-            option2: 'Opcion 2',
-            option3: 'Opcion 3',
             home: 'Inicio',
-            components: 'Componentes',
+            components: 'Componente',
             layout: 'Layout',
-            content: 'Contenido',
+            content: 'Contenido Home',
+        },
+        about: {
+            about: 'Nosotros',
+            content: 'Contenido Nosotros',
         },
     },
     common: {
         buttonTranslations: 'Traducir',
+        titles: {
+            home: 'Inicio',
+            about: 'Nosotros',
+        },
     },
 };
 
